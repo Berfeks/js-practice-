@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		return nextElements;
 	}
 
+
 	const menu = document.querySelector('.menu-main'),
 				more = document.querySelector('.menu-more'),
 				subMenu = document.querySelector('.menu-sub'),
@@ -44,6 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
 			}
 		}
 	};
+
 
 	const expand = () => {
 		let w = 0,
@@ -88,6 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
 			more.classList.remove('active');
 		}
 	};
+
 
 	contract();
 	checkActive();
